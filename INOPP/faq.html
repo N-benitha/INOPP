@@ -3,53 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Responsive Admin Dashboard</title>
-    <!-- ====Styles==== -->
-    <link rel="stylesheet" href="another.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <title>Internship FAQs</title>
+    <link rel="stylesheet" href="faq.css">
 </head>
 <body>
-    <!--  =====Navigation=====  -->
     <div class="container">
-        <div class="navigation">
+    <div class="navigation">
         <ul>
             <li>
                 <a href="">
-                    <span class="icon"><ion-icon name="browsers"></ion-icon></span>
+                    <span class="icon"><img src="logo.png" alt="logo"></span>
                     <span class="title">INOPP</span>
                 </a>
             </li>
 
             <li>
-                <a href="">
+                <a href="browseopp.html">
                     <span class="icon"><ion-icon name="browsers"></ion-icon></span>
                     <span class="title">Browse Opportunities</span>
                 </a>
             </li>
 
             <li>
-                <a href="">
+                <a href="userstory.html">
                     <span class="icon"><iconify-icon icon="ic:baseline-history-edu" width="30"></iconify-icon></span>
                     <span class="title">User Stories</span>
                 </a>
             </li>
 
             <li>
-                <a href="">
+                <a href="companydir.html">
                     <span class="icon"><iconify-icon icon="fluent-mdl2:company-directory" width="30"></iconify-icon></span>
                     <span class="title">Company Directory</span>
                 </a>
             </li>
 
             <li>
-                <a href="">
+                <a href="resources.html">
                     <span class="icon"><iconify-icon icon="grommet-icons:resources" width="30"></iconify-icon></span>
                     <span class="title">Resources</span>
                 </a>
             </li>
 
             <li>
-                <a href="">
+                <a href="faq.html">
                     <span class="icon"><ion-icon name="help-outline"></ion-icon></span>
                     <span class="title">FAQs</span>
                 </a>
@@ -63,21 +60,22 @@
             </li> -->
 
             <li>
-                <a href="">
+                <a href="termsandconditions.html">
                     <span class="icon"><ion-icon name="lock-closed-outline"></ion-icon></span>
                     <span class="title">Privacy Policy</span>
                 </a>
             </li>
 
             <li>
-                <a href="">
+                <a href="signup.php">
                     <span class="icon"><ion-icon name="log-in-outline"></ion-icon></span>
                     <span class="title">Sign In/Create an account</span>
                 </a>
             </li>
         </ul>
-    </div>
+        </div>
 
+    <!-- ====================== Main =========================== -->
     <div class="main">
         <div class="menubar">
             <div class="toggle">
@@ -85,10 +83,10 @@
             </div>
             <div class="features">
                 <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
-                    <li>Contact</li>
+                    <li><a href="Real_Landing_page.html" style="text-decoration: none; color: black;">Home</a></li>
+                    <li><a href="aboutus.html" style="text-decoration: none; color: black;">About</a></li>
+                    <li><a href="services.html" style="text-decoration: none; color: black;">Services</a></li>
+                    <li><a href="contact.html" style="text-decoration: none; color: black;">Contact</a></li>
                 </ul>
             </div>
             <div class="search">
@@ -98,16 +96,25 @@
                 </label>
             </div>
         </div>
-    </div>
+
+    <main>
+        <section id="faqs">
+            <h2>Frequently Asked Questions</h2>
+            <ul id="faqList">
+                <!-- FAQ items will be displayed here -->
+            </ul>
+        </section>
+    </main>
 
     </div>
-
-    <!-- ====Scripts==== -->
-    <script src="another.js"></script>
+</div>
+    <!-- ============================ Scripts ====================== -->
+    <script src="faq.js"></script>
 
     <!-- ====ionicons==== -->
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+
 </body>
 </html>
